@@ -57,7 +57,4 @@ az cosmosdb collection create \
     --name $appname \
     --db-name $databasename \
     --partition-key-path /mypartitionkey \
-    --throughput 1000
-
-
-
+--throughput 1000
